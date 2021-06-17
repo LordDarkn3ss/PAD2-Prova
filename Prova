@@ -13,12 +13,15 @@ function someFun(v1, v2){
 var someFN = function(num) 
     {
         var valor = num;
-        return function (somar){valor += somar; return valor;}
+        return function(somar){valor += somar; return valor;}
     }
     var counter = someFN(1)
     console.log("First call", counter(3))
     console.log("second call", counter(1))
     console.log("Third call", counter(5))
+    
+//Questão 3
+
 
 //Questão 4 RESULTADO DA QUESTÃO = 4 1 5 1
 
